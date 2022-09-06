@@ -1,0 +1,781 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#Header{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+#HeaderLogo{
+    width: 140px;
+    height: 74px;
+    position: relative;
+    top: 200px;
+    left: 20%;
+    float: left;
+}
+#HeaderLogo2{
+    width: 140px;
+    height: 74px;
+    position: relative;
+
+}
+#HeaderButton{
+    width: 500px;
+    height: 74px;
+    position: relative;
+    top: 200px;
+    right: 20%;
+    float: right;
+}
+#HeaderButton1{
+    width: 45%;
+    height: 95%;
+    position: relative;
+    left: 2%;
+    border-radius: 10px;
+    float: left;
+}
+#b1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: solid 2px darkorange;
+    color: darkorange;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    FONT-WEIGHT: bold;
+}
+#b1:hover{
+    background-color: darkorange;
+    color: white;
+}
+#HeaderButton2{
+    width: 53%;
+    height: 95%;
+    position: relative;
+    right: 2%;
+    border-radius: 10px;
+    float: right;
+}
+#b2{
+    position: relative;
+    float: left;
+    background-color: white;
+    color: black;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    FONT-WEIGHT: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 25px;
+    border: 0;
+}
+#b2:hover{
+    background-color: black;
+    color: white;
+}
+#b3{
+    position: relative;
+    float: right;
+    background-color: white;
+    color: black;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    FONT-WEIGHT: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 25px;
+    border: 0;
+}
+#b3:hover {
+    background-color: black;
+    color: white;
+}
+#szoveg{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+}
+#Header-p{
+    position: relative;
+    left: 20%;
+    font-weight: bold;
+}
+#HeaderBody{
+    background-color: midnightblue;
+    height: 60px;
+    width: 100%;
+}
+#HeaderBody-p{
+    position: absolute;
+    left: 20%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    FONT-WEIGHT: bold;
+}
+#Body{
+    background-color: lightgrey;
+    height: 2500px;
+    width: 100%;
+}
+
+
+
+
+#Body-left{
+    position: relative;
+    left: 22%;
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+}
+#Body-left-p{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    FONT-WEIGHT: bold;
+}
+#Body-Center{
+    position: relative;
+    float: left;
+    left: 30%;
+    width: 210px;
+    height: 50px;
+    margin-top: 5px;
+}
+#Body-Center-p{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    FONT-WEIGHT: bold;
+}
+#Body-Center-p1{
+    background-color: midnightblue;
+    margin: 0;
+    border: 0;
+    padding: 2px 2px;
+    width: 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+#Body-Center-p2{
+    background-color: midnightblue;
+    margin: 0;
+    border: 0;
+    padding: 2px 2px;
+    width: 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+#Body-Right{
+    position: relative;
+    float: right;
+    right: 22%;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+}
+#Body-Right select {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: midnightblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    outline: none;
+}
+#Body-Right::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+#Body-Right:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#Body-Right select option {
+    padding: 30px;
+}
+#Within{
+    background-color: white;
+    width: 60%;
+    height: 2350px;
+    position: relative;
+    float: right;
+    left: -7.5%;
+    top: 3%;
+}
+.within-href{
+    text-decoration: none;
+}
+#Within-left{
+    position: relative;
+    left: 0;
+    border: solid 2px grey;
+    width: 29%;
+    height: 100%;
+    float: left;
+}
+.Within-left{
+    margin: 10px;
+}
+.Within-left-select{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Within-left-p{
+    font-weight: bold;
+    font-size: 20px;
+}
+#Select{
+    background-color: white;
+    color: darkorange;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    FONT-WEIGHT: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 2px darkorange;
+    position: relative;
+    top: 2%;
+    left: 25%;
+}
+#Select:hover{
+    background-color: darkorange;
+    color: white;
+}
+.box select {
+    background-color: midnightblue;
+    color: white;
+    padding: 12px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    outline: none;
+    border-radius: 15px;
+}
+.box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+.box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.box select option {
+    padding: 30px;
+}
+#Within-Right{
+    position: relative;
+    right: 0;
+    border: solid 2px grey;
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+#Within-table{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 1350px;
+}
+.Whitin-tr{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.Whitin-td{
+    width: 100%;
+    height: 200px;
+    border-top: solid 2px grey;
+    border-bottom: solid 2px grey;
+}
+.Within-table-table{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+.Whitin-tr-tr{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.Whitin-td-image{
+    width: 36%;
+    border-right: solid 2px grey;
+}
+.Whitin-td-image-position{
+    width: 97%;
+    height: 70%;
+    position: relative;
+    border: solid 2px grey;
+}
+.Whitin-td-td{
+
+}
+.Whitin-td-123{
+    width: 100%;
+    height: 100%;
+}
+.p123-p{
+    background-color: midnightblue;
+    margin-top: 15px;
+    border: 0;
+    padding: 2px 2px;
+    width: 100px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.money{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+}
+.Address{
+    font-size: 15px;
+    font-weight: bold;
+
+    color: black;
+}
+#foot{
+    background-color: midnightblue;
+    height: 100px;
+
+}
+#foot-fielset{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 80%;
+}
+
+#Bodyimg-div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    opacity:0.5;
+    filter:alpha(opacity:40);
+    border-radius: 10px;
+}
+.Bodyimg-div-p{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Grape Nuts', cursive;
+}
+#HeaderBody-{
+    width: 400px;
+    height: 80px;
+}
+#Facebook{
+    width: 200px;
+    position: relative;
+    float: left;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    FONT-WEIGHT: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+}
+#Messenger{
+    width: 200px;
+    position: relative;
+    float: right;
+    background-color: lightskyblue;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    FONT-WEIGHT: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+}
+#Bodyfoot{
+    width: 50%;
+    height: 550px;
+}
+#Bodyfoot-p{
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    font-family: 'Grape Nuts', cursive;
+}
+#Body3{
+    background-color:lightgrey;
+    height: 900px;
+    width: 100%;
+}
+#Within3{
+    width: 60%;
+    height: 110%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+}
+#Within3-left{
+    position: relative;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#work{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    float: right;
+    bottom: -78%;
+    right: 5%;
+}
+
+
+
+
+
+
+#b4{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: white;
+    border: solid 2px darkorange;
+    color: darkorange;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    FONT-WEIGHT: bold;
+}
+#b4:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+#b42{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: white;
+    border: solid 2px darkorange;
+    color: darkorange;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    FONT-WEIGHT: bold;
+}
+#b42:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+#Within3-left2{
+    width: 100%;
+    height: 150px;
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: white;
+}
+.money2{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+    margin-left: 15px;
+    line-height: 0px;
+}
+.p{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 15px;
+
+}
+.information{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 15px;
+    line-height: 0px;
+}
+.information2{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left: 15px;
+    line-height: 0px;
+}
+#Within3-left3{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.Within3-left3-p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    width: 90%;
+    height: 80%;
+}
+#date{
+    position: relative;
+    float: bottom;
+    width: 300px;
+    height: 30px;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#Within3-right{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#Box-Address{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    position: sticky;
+    top: 15px;
+    left: 15px;
+    border-radius: 15px;
+}
+#Box-Address-Header{
+    font-size: 20px;
+    font-weight: bold;
+    color: midnightblue;
+    margin-left: 10px;
+}
+.Box-Address-p{
+    font-size: 15px;
+    font-weight: bold;
+    color: midnightblue;
+    margin-left: 10px;
+
+}
+.Box-Address-pp{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: midnightblue;
+    border-radius: 15px;
+}
+#works{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 15px;
+}
+#works1{
+    position: relative;
+    float: left;
+    height: 230px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: white;
+}
+#works2{
+    position: relative;
+    float: left;
+    height: 230px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 30px;
+}
+#works3{
+    position: relative;
+    float: right;
+    height: 230px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: white;
+}
+.works-img{
+    width: 90%;
+    height: 150px;
+    background-color: red;
+    border-radius: 15px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.works-p{
+    width: 90%;
+    height: 60px;
+    position: relative;
+    right: 5px;
+    bottom: 10px;
+    float: bottom;
+    margin-left: 15px;
+}
+.works-pp{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+.dell{
+    background-color: lightgrey;
+    padding: 10px 26px;
+    margin: 4px 2px;
+    border: solid 2px darkorange;
+    color: darkorange;
+}
+#b42{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: white;
+    border: solid 2px darkorange;
+    color: darkorange;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    FONT-WEIGHT: bold;
+}
+#b42:hover{
+    background-color: darkorange;
+    color: white;
+}
+h5{
+    color: black;
+}
+.admin_color{
+    background-color: red;
+}
+.message{
+    background-color: lightgrey;
+    padding: 1px 1px;
+    margin: 1px 1px;
+    border: solid 2px darkorange;
+    color: darkorange;
+}
+.Messagedelete{
+    background-color: #ff0000;
+    padding: 1px 1px;
+    margin: 1px 1px;
+    border: solid 2px #ff0000;
+    color: #ffffff;
+}
